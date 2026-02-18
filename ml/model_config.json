@@ -1,0 +1,30 @@
+{
+  "threshold": 0.42,
+  "roc_auc": 0.703,
+  "cv_mean_auc": 0.715,
+  "cv_std_auc": 0.015,
+  "total_samples": 3284,
+  "buggy_samples": 1487,
+  "clean_samples": 1797,
+  "features": [
+    "total_lines",
+    "num_functions",
+    "num_classes",
+    "num_imports",
+    "avg_func_length",
+    "max_func_length",
+    "avg_complexity",
+    "max_complexity",
+    "high_complexity_fns",
+    "maintainability",
+    "lines_per_function",
+    "num_nodes",
+    "num_edges",
+    "avg_degree",
+    "max_degree",
+    "graph_density",
+    "avg_shortest_path",
+    "clustering_coeff",
+    "deep_nesting_count"
+  ]
+}
